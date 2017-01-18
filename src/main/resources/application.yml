@@ -1,0 +1,19 @@
+
+server:
+  port: 8057
+  contextPath: /hr/client/api
+
+logging:
+  level:
+    org.hr.client: INFO
+
+spring:
+    application:
+        name: CloudRestClientRibbon
+        
+ping-server:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8085,localhost:8095,localhost:8105
+    ServerListRefreshInterval: 15000
