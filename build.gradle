@@ -48,6 +48,7 @@ dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-hystrix')
     compile('org.springframework.cloud:spring-cloud-starter-ribbon')
    	compile('org.springframework.cloud:spring-cloud-starter-hystrix-dashboard')
+   	compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile 'junit:junit:4.12'
 }

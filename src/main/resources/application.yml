@@ -15,5 +15,5 @@ ping-server:
   ribbon:
     eureka:
       enabled: false
-    listOfServers: localhost:8085,localhost:8095,localhost:8105
+    listOfServers: docker.server.com:8085,docker.server.com:8185,docker.server.com:8285
     ServerListRefreshInterval: 15000
